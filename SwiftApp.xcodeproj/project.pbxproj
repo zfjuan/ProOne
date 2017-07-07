@@ -1,0 +1,1039 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		621132071F00ABD90076CCE3 /* InfoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621132061F00ABD90076CCE3 /* InfoDetailViewController.swift */; };
+		62A4547F1EFA683E001D2FB1 /* homecell_activity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A4546B1EFA683E001D2FB1 /* homecell_activity@2x.png */; };
+		62A454801EFA683E001D2FB1 /* homecell_beauty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A4546C1EFA683E001D2FB1 /* homecell_beauty@2x.png */; };
+		62A454811EFA683E001D2FB1 /* homecell_brand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A4546D1EFA683E001D2FB1 /* homecell_brand@2x.png */; };
+		62A454821EFA683E001D2FB1 /* homecell_top10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A4546E1EFA683E001D2FB1 /* homecell_top10@2x.png */; };
+		62A454831EFA683E001D2FB1 /* homeList@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A4546F1EFA683E001D2FB1 /* homeList@2x.png */; };
+		62A454841EFA683E001D2FB1 /* shanchu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A454701EFA683E001D2FB1 /* shanchu@2x.png */; };
+		62A454851EFA683E001D2FB1 /* 加号.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A454711EFA683E001D2FB1 /* 加号.png */; };
+		62A454861EFA683E001D2FB1 /* 加号1.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A454721EFA683E001D2FB1 /* 加号1.png */; };
+		62A454871EFA683E001D2FB1 /* 底色123.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A454731EFA683E001D2FB1 /* 底色123.png */; };
+		62A454881EFA683E001D2FB1 /* 我的1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A454741EFA683E001D2FB1 /* 我的1@2x.png */; };
+		62A454891EFA683E001D2FB1 /* 我的@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A454751EFA683E001D2FB1 /* 我的@2x.png */; };
+		62A4548A1EFA683E001D2FB1 /* 我的_msg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A454761EFA683E001D2FB1 /* 我的_msg@2x.png */; };
+		62A4548B1EFA683E001D2FB1 /* 福利1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A454771EFA683E001D2FB1 /* 福利1@2x.png */; };
+		62A4548C1EFA683E001D2FB1 /* 福利@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A454781EFA683E001D2FB1 /* 福利@2x.png */; };
+		62A4548D1EFA683E001D2FB1 /* 美妆1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A454791EFA683E001D2FB1 /* 美妆1@2x.png */; };
+		62A4548E1EFA683E001D2FB1 /* 美妆@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A4547A1EFA683E001D2FB1 /* 美妆@2x.png */; };
+		62A4548F1EFA683E001D2FB1 /* 美的你.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A4547B1EFA683E001D2FB1 /* 美的你.png */; };
+		62A454901EFA683E001D2FB1 /* 试妆间@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A4547C1EFA683E001D2FB1 /* 试妆间@2x.png */; };
+		62A454911EFA683E001D2FB1 /* 首页1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A4547D1EFA683E001D2FB1 /* 首页1@2x.png */; };
+		62A454921EFA683E001D2FB1 /* 首页@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A4547E1EFA683E001D2FB1 /* 首页@2x.png */; };
+		62A454A51EFA687D001D2FB1 /* icon_show.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A454941EFA687D001D2FB1 /* icon_show.png */; };
+		62A454A61EFA687D001D2FB1 /* icon_产品库.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A454951EFA687D001D2FB1 /* icon_产品库.png */; };
+		62A454A71EFA687D001D2FB1 /* icon_福利.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A454961EFA687D001D2FB1 /* icon_福利.png */; };
+		62A454A81EFA687D001D2FB1 /* icon_试妆间.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A454971EFA687D001D2FB1 /* icon_试妆间.png */; };
+		62A454A91EFA687D001D2FB1 /* loadingImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A454981EFA687D001D2FB1 /* loadingImg.png */; };
+		62A454AA1EFA687D001D2FB1 /* lunchpage.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A454991EFA687D001D2FB1 /* lunchpage.png */; };
+		62A454AB1EFA687D001D2FB1 /* oobe_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A4549A1EFA687D001D2FB1 /* oobe_bg.png */; };
+		62A454AC1EFA687D001D2FB1 /* 开机画面_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A4549B1EFA687D001D2FB1 /* 开机画面_logo.png */; };
+		62A454AD1EFA687D001D2FB1 /* 美课美妆_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A4549C1EFA687D001D2FB1 /* 美课美妆_logo.png */; };
+		62A454AE1EFA687D001D2FB1 /* 间隔线_粉.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A4549D1EFA687D001D2FB1 /* 间隔线_粉.png */; };
+		62A454AF1EFA687D001D2FB1 /* 阅.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A4549E1EFA687D001D2FB1 /* 阅.png */; };
+		62A454B01EFA687D001D2FB1 /* 首页签到_今.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A4549F1EFA687D001D2FB1 /* 首页签到_今.png */; };
+		62A454B11EFA687D001D2FB1 /* 首页签到_灰点.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A454A01EFA687D001D2FB1 /* 首页签到_灰点.png */; };
+		62A454B21EFA687D001D2FB1 /* 首页签到_签到_dow.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A454A11EFA687D001D2FB1 /* 首页签到_签到_dow.png */; };
+		62A454B31EFA687D001D2FB1 /* 首页签到_签到_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A454A21EFA687D001D2FB1 /* 首页签到_签到_nor.png */; };
+		62A454B41EFA687D001D2FB1 /* 首页签到_红点.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A454A31EFA687D001D2FB1 /* 首页签到_红点.png */; };
+		62A454B51EFA687D001D2FB1 /* 黑色头部渐变.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A454A41EFA687D001D2FB1 /* 黑色头部渐变.png */; };
+		62A454B91EFA6D49001D2FB1 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A454B81EFA6D49001D2FB1 /* ProductViewController.swift */; };
+		62A454BC1EFA7EC6001D2FB1 /* SingleWebCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A454BA1EFA7EC6001D2FB1 /* SingleWebCell.swift */; };
+		62A454BD1EFA7EC6001D2FB1 /* SingleWebCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62A454BB1EFA7EC6001D2FB1 /* SingleWebCell.xib */; };
+		62E1108E1EF92DEF00317F80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E1108D1EF92DEF00317F80 /* AppDelegate.swift */; };
+		62E110931EF92DEF00317F80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E110911EF92DEF00317F80 /* Main.storyboard */; };
+		62E110951EF92DEF00317F80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62E110941EF92DEF00317F80 /* Assets.xcassets */; };
+		62E110981EF92DEF00317F80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E110961EF92DEF00317F80 /* LaunchScreen.storyboard */; };
+		62E110A31EF92DEF00317F80 /* SwiftAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E110A21EF92DEF00317F80 /* SwiftAppTests.swift */; };
+		62E110AE1EF92DEF00317F80 /* SwiftAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E110AD1EF92DEF00317F80 /* SwiftAppUITests.swift */; };
+		62E110BC1EF92E2200317F80 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E110BB1EF92E2200317F80 /* HomeViewController.swift */; };
+		62E3449A1EFB9935004997D7 /* 试妆间_分享不勾选.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344741EFB9935004997D7 /* 试妆间_分享不勾选.png */; };
+		62E3449B1EFB9935004997D7 /* 试妆间_分享勾选.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344751EFB9935004997D7 /* 试妆间_分享勾选.png */; };
+		62E3449C1EFB9935004997D7 /* 试妆间_进入时icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344761EFB9935004997D7 /* 试妆间_进入时icon.png */; };
+		62E3449D1EFB9935004997D7 /* 试妆间_镜头切换.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344771EFB9935004997D7 /* 试妆间_镜头切换.png */; };
+		62E3449E1EFB9935004997D7 /* 试妆间_录像.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344781EFB9935004997D7 /* 试妆间_录像.png */; };
+		62E3449F1EFB9935004997D7 /* 试妆间_拍照.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344791EFB9935004997D7 /* 试妆间_拍照.png */; };
+		62E344A01EFB9935004997D7 /* 试妆间_提示.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E3447A1EFB9935004997D7 /* 试妆间_提示.png */; };
+		62E344A11EFB9935004997D7 /* 试妆间_线.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E3447B1EFB9935004997D7 /* 试妆间_线.png */; };
+		62E344A21EFB9935004997D7 /* 试妆间_妆容选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E3447C1EFB9935004997D7 /* 试妆间_妆容选中.png */; };
+		62E344A31EFB9935004997D7 /* 试妆间_rec.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E3447D1EFB9935004997D7 /* 试妆间_rec.png */; };
+		62E344A41EFB9935004997D7 /* 首页_侧边栏icon_白.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E3447E1EFB9935004997D7 /* 首页_侧边栏icon_白.png */; };
+		62E344A51EFB9935004997D7 /* 首页_侧边栏icon_灰.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E3447F1EFB9935004997D7 /* 首页_侧边栏icon_灰.png */; };
+		62E344A61EFB9935004997D7 /* 首页_视频播放icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344801EFB9935004997D7 /* 首页_视频播放icon.png */; };
+		62E344A71EFB9935004997D7 /* 首页提示_右.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344811EFB9935004997D7 /* 首页提示_右.png */; };
+		62E344A81EFB9935004997D7 /* 首页提示_右箭头.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344821EFB9935004997D7 /* 首页提示_右箭头.png */; };
+		62E344A91EFB9935004997D7 /* 首页提示_左.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344831EFB9935004997D7 /* 首页提示_左.png */; };
+		62E344AA1EFB9935004997D7 /* 首页提示_左箭头.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344841EFB9935004997D7 /* 首页提示_左箭头.png */; };
+		62E344AB1EFB9935004997D7 /* 通用_收藏与分享.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344851EFB9935004997D7 /* 通用_收藏与分享.png */; };
+		62E344AC1EFB9935004997D7 /* 为你推荐_黑底.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344861EFB9935004997D7 /* 为你推荐_黑底.png */; };
+		62E344AD1EFB9935004997D7 /* 月.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344871EFB9935004997D7 /* 月.png */; };
+		62E344AE1EFB9935004997D7 /* 暂无试妆.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344881EFB9935004997D7 /* 暂无试妆.png */; };
+		62E344AF1EFB9935004997D7 /* 暂无收藏.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344891EFB9935004997D7 /* 暂无收藏.png */; };
+		62E344B01EFB9935004997D7 /* 妆容_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E3448A1EFB9935004997D7 /* 妆容_00.png */; };
+		62E344B11EFB9935004997D7 /* 妆容_选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E3448B1EFB9935004997D7 /* 妆容_选中.png */; };
+		62E344B21EFB9935004997D7 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E3448C1EFB9935004997D7 /* camera.png */; };
+		62E344B31EFB9935004997D7 /* costJifenImgCover.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E3448D1EFB9935004997D7 /* costJifenImgCover.png */; };
+		62E344B41EFB9935004997D7 /* followUS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62E3448E1EFB9935004997D7 /* followUS.jpg */; };
+		62E344B51EFB9935004997D7 /* icon_美哒_分享用.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E3448F1EFB9935004997D7 /* icon_美哒_分享用.png */; };
+		62E344B61EFB9935004997D7 /* icon_moment.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344901EFB9935004997D7 /* icon_moment.png */; };
+		62E344B71EFB9935004997D7 /* icon_qq.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344911EFB9935004997D7 /* icon_qq.png */; };
+		62E344B81EFB9935004997D7 /* icon_qqblog.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344921EFB9935004997D7 /* icon_qqblog.png */; };
+		62E344B91EFB9935004997D7 /* icon_wechat.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344931EFB9935004997D7 /* icon_wechat.png */; };
+		62E344BA1EFB9935004997D7 /* icon_weibo.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344941EFB9935004997D7 /* icon_weibo.png */; };
+		62E344BB1EFB9935004997D7 /* loadingImg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62E344951EFB9935004997D7 /* loadingImg2.jpg */; };
+		62E344BC1EFB9935004997D7 /* lunchpage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62E344961EFB9935004997D7 /* lunchpage.jpg */; };
+		62E344BD1EFB9935004997D7 /* main_icon_gif009.gif in Resources */ = {isa = PBXBuildFile; fileRef = 62E344971EFB9935004997D7 /* main_icon_gif009.gif */; };
+		62E344BE1EFB9935004997D7 /* main_icon_gif009@3x.gif in Resources */ = {isa = PBXBuildFile; fileRef = 62E344981EFB9935004997D7 /* main_icon_gif009@3x.gif */; };
+		62E344BF1EFB9935004997D7 /* oobe_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62E344991EFB9935004997D7 /* oobe_bg.jpg */; };
+		62E344C61EFB9D17004997D7 /* 侧边栏_底部商标.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344C01EFB9D17004997D7 /* 侧边栏_底部商标.png */; };
+		62E344C71EFB9D17004997D7 /* 侧边栏_个人中心_未登录icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344C11EFB9D17004997D7 /* 侧边栏_个人中心_未登录icon.png */; };
+		62E344C81EFB9D17004997D7 /* 侧边栏_个人中心_游客头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344C21EFB9D17004997D7 /* 侧边栏_个人中心_游客头像.png */; };
+		62E344C91EFB9D17004997D7 /* 侧边栏_栏目选中点.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344C31EFB9D17004997D7 /* 侧边栏_栏目选中点.png */; };
+		62E344CA1EFB9D17004997D7 /* 侧边栏_设置.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344C41EFB9D17004997D7 /* 侧边栏_设置.png */; };
+		62E344CB1EFB9D17004997D7 /* 美的你顶部栏_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E344C51EFB9D17004997D7 /* 美的你顶部栏_logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62E1109F1EF92DEF00317F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E110821EF92DEF00317F80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62E110891EF92DEF00317F80;
+			remoteInfo = SwiftApp;
+		};
+		62E110AA1EF92DEF00317F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E110821EF92DEF00317F80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62E110891EF92DEF00317F80;
+			remoteInfo = SwiftApp;
+		};
+		62E76D031F0CEC5800756325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E76CF81F0CEC5800756325 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		62E76D051F0CEC5800756325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E76CF81F0CEC5800756325 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		62E76D071F0CEC5800756325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E76CF81F0CEC5800756325 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		62E76D091F0CEC5800756325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E76CF81F0CEC5800756325 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		62E76D0B1F0CEC5800756325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E76CF81F0CEC5800756325 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		62E76D0D1F0CEC5800756325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E76CF81F0CEC5800756325 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		62E76D0F1F0CEC5800756325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E76CF81F0CEC5800756325 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		621132061F00ABD90076CCE3 /* InfoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoDetailViewController.swift; sourceTree = "<group>"; };
+		62A4546B1EFA683E001D2FB1 /* homecell_activity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homecell_activity@2x.png"; sourceTree = "<group>"; };
+		62A4546C1EFA683E001D2FB1 /* homecell_beauty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homecell_beauty@2x.png"; sourceTree = "<group>"; };
+		62A4546D1EFA683E001D2FB1 /* homecell_brand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homecell_brand@2x.png"; sourceTree = "<group>"; };
+		62A4546E1EFA683E001D2FB1 /* homecell_top10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homecell_top10@2x.png"; sourceTree = "<group>"; };
+		62A4546F1EFA683E001D2FB1 /* homeList@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homeList@2x.png"; sourceTree = "<group>"; };
+		62A454701EFA683E001D2FB1 /* shanchu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shanchu@2x.png"; sourceTree = "<group>"; };
+		62A454711EFA683E001D2FB1 /* 加号.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "加号.png"; sourceTree = "<group>"; };
+		62A454721EFA683E001D2FB1 /* 加号1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "加号1.png"; sourceTree = "<group>"; };
+		62A454731EFA683E001D2FB1 /* 底色123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底色123.png"; sourceTree = "<group>"; };
+		62A454741EFA683E001D2FB1 /* 我的1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的1@2x.png"; sourceTree = "<group>"; };
+		62A454751EFA683E001D2FB1 /* 我的@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的@2x.png"; sourceTree = "<group>"; };
+		62A454761EFA683E001D2FB1 /* 我的_msg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的_msg@2x.png"; sourceTree = "<group>"; };
+		62A454771EFA683E001D2FB1 /* 福利1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "福利1@2x.png"; sourceTree = "<group>"; };
+		62A454781EFA683E001D2FB1 /* 福利@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "福利@2x.png"; sourceTree = "<group>"; };
+		62A454791EFA683E001D2FB1 /* 美妆1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美妆1@2x.png"; sourceTree = "<group>"; };
+		62A4547A1EFA683E001D2FB1 /* 美妆@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美妆@2x.png"; sourceTree = "<group>"; };
+		62A4547B1EFA683E001D2FB1 /* 美的你.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美的你.png"; sourceTree = "<group>"; };
+		62A4547C1EFA683E001D2FB1 /* 试妆间@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "试妆间@2x.png"; sourceTree = "<group>"; };
+		62A4547D1EFA683E001D2FB1 /* 首页1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页1@2x.png"; sourceTree = "<group>"; };
+		62A4547E1EFA683E001D2FB1 /* 首页@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页@2x.png"; sourceTree = "<group>"; };
+		62A454941EFA687D001D2FB1 /* icon_show.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_show.png; sourceTree = "<group>"; };
+		62A454951EFA687D001D2FB1 /* icon_产品库.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_产品库.png"; sourceTree = "<group>"; };
+		62A454961EFA687D001D2FB1 /* icon_福利.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_福利.png"; sourceTree = "<group>"; };
+		62A454971EFA687D001D2FB1 /* icon_试妆间.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_试妆间.png"; sourceTree = "<group>"; };
+		62A454981EFA687D001D2FB1 /* loadingImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingImg.png; sourceTree = "<group>"; };
+		62A454991EFA687D001D2FB1 /* lunchpage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunchpage.png; sourceTree = "<group>"; };
+		62A4549A1EFA687D001D2FB1 /* oobe_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oobe_bg.png; sourceTree = "<group>"; };
+		62A4549B1EFA687D001D2FB1 /* 开机画面_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开机画面_logo.png"; sourceTree = "<group>"; };
+		62A4549C1EFA687D001D2FB1 /* 美课美妆_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美课美妆_logo.png"; sourceTree = "<group>"; };
+		62A4549D1EFA687D001D2FB1 /* 间隔线_粉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "间隔线_粉.png"; sourceTree = "<group>"; };
+		62A4549E1EFA687D001D2FB1 /* 阅.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阅.png"; sourceTree = "<group>"; };
+		62A4549F1EFA687D001D2FB1 /* 首页签到_今.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页签到_今.png"; sourceTree = "<group>"; };
+		62A454A01EFA687D001D2FB1 /* 首页签到_灰点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页签到_灰点.png"; sourceTree = "<group>"; };
+		62A454A11EFA687D001D2FB1 /* 首页签到_签到_dow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页签到_签到_dow.png"; sourceTree = "<group>"; };
+		62A454A21EFA687D001D2FB1 /* 首页签到_签到_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页签到_签到_nor.png"; sourceTree = "<group>"; };
+		62A454A31EFA687D001D2FB1 /* 首页签到_红点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页签到_红点.png"; sourceTree = "<group>"; };
+		62A454A41EFA687D001D2FB1 /* 黑色头部渐变.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黑色头部渐变.png"; sourceTree = "<group>"; };
+		62A454B81EFA6D49001D2FB1 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		62A454BA1EFA7EC6001D2FB1 /* SingleWebCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleWebCell.swift; sourceTree = "<group>"; };
+		62A454BB1EFA7EC6001D2FB1 /* SingleWebCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleWebCell.xib; sourceTree = "<group>"; };
+		62E1108A1EF92DEF00317F80 /* SwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E1108D1EF92DEF00317F80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62E110921EF92DEF00317F80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62E110941EF92DEF00317F80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62E110971EF92DEF00317F80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62E110991EF92DEF00317F80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62E1109E1EF92DEF00317F80 /* SwiftAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E110A21EF92DEF00317F80 /* SwiftAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppTests.swift; sourceTree = "<group>"; };
+		62E110A41EF92DEF00317F80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62E110A91EF92DEF00317F80 /* SwiftAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E110AD1EF92DEF00317F80 /* SwiftAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppUITests.swift; sourceTree = "<group>"; };
+		62E110AF1EF92DEF00317F80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62E110BB1EF92E2200317F80 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../HomeViewController.swift; sourceTree = "<group>"; };
+		62E344741EFB9935004997D7 /* 试妆间_分享不勾选.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "试妆间_分享不勾选.png"; sourceTree = "<group>"; };
+		62E344751EFB9935004997D7 /* 试妆间_分享勾选.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "试妆间_分享勾选.png"; sourceTree = "<group>"; };
+		62E344761EFB9935004997D7 /* 试妆间_进入时icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "试妆间_进入时icon.png"; sourceTree = "<group>"; };
+		62E344771EFB9935004997D7 /* 试妆间_镜头切换.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "试妆间_镜头切换.png"; sourceTree = "<group>"; };
+		62E344781EFB9935004997D7 /* 试妆间_录像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "试妆间_录像.png"; sourceTree = "<group>"; };
+		62E344791EFB9935004997D7 /* 试妆间_拍照.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "试妆间_拍照.png"; sourceTree = "<group>"; };
+		62E3447A1EFB9935004997D7 /* 试妆间_提示.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "试妆间_提示.png"; sourceTree = "<group>"; };
+		62E3447B1EFB9935004997D7 /* 试妆间_线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "试妆间_线.png"; sourceTree = "<group>"; };
+		62E3447C1EFB9935004997D7 /* 试妆间_妆容选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "试妆间_妆容选中.png"; sourceTree = "<group>"; };
+		62E3447D1EFB9935004997D7 /* 试妆间_rec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "试妆间_rec.png"; sourceTree = "<group>"; };
+		62E3447E1EFB9935004997D7 /* 首页_侧边栏icon_白.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页_侧边栏icon_白.png"; sourceTree = "<group>"; };
+		62E3447F1EFB9935004997D7 /* 首页_侧边栏icon_灰.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页_侧边栏icon_灰.png"; sourceTree = "<group>"; };
+		62E344801EFB9935004997D7 /* 首页_视频播放icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页_视频播放icon.png"; sourceTree = "<group>"; };
+		62E344811EFB9935004997D7 /* 首页提示_右.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页提示_右.png"; sourceTree = "<group>"; };
+		62E344821EFB9935004997D7 /* 首页提示_右箭头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页提示_右箭头.png"; sourceTree = "<group>"; };
+		62E344831EFB9935004997D7 /* 首页提示_左.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页提示_左.png"; sourceTree = "<group>"; };
+		62E344841EFB9935004997D7 /* 首页提示_左箭头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页提示_左箭头.png"; sourceTree = "<group>"; };
+		62E344851EFB9935004997D7 /* 通用_收藏与分享.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通用_收藏与分享.png"; sourceTree = "<group>"; };
+		62E344861EFB9935004997D7 /* 为你推荐_黑底.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "为你推荐_黑底.png"; sourceTree = "<group>"; };
+		62E344871EFB9935004997D7 /* 月.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "月.png"; sourceTree = "<group>"; };
+		62E344881EFB9935004997D7 /* 暂无试妆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暂无试妆.png"; sourceTree = "<group>"; };
+		62E344891EFB9935004997D7 /* 暂无收藏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暂无收藏.png"; sourceTree = "<group>"; };
+		62E3448A1EFB9935004997D7 /* 妆容_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "妆容_00.png"; sourceTree = "<group>"; };
+		62E3448B1EFB9935004997D7 /* 妆容_选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "妆容_选中.png"; sourceTree = "<group>"; };
+		62E3448C1EFB9935004997D7 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		62E3448D1EFB9935004997D7 /* costJifenImgCover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = costJifenImgCover.png; sourceTree = "<group>"; };
+		62E3448E1EFB9935004997D7 /* followUS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = followUS.jpg; sourceTree = "<group>"; };
+		62E3448F1EFB9935004997D7 /* icon_美哒_分享用.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_美哒_分享用.png"; sourceTree = "<group>"; };
+		62E344901EFB9935004997D7 /* icon_moment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_moment.png; sourceTree = "<group>"; };
+		62E344911EFB9935004997D7 /* icon_qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_qq.png; sourceTree = "<group>"; };
+		62E344921EFB9935004997D7 /* icon_qqblog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_qqblog.png; sourceTree = "<group>"; };
+		62E344931EFB9935004997D7 /* icon_wechat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_wechat.png; sourceTree = "<group>"; };
+		62E344941EFB9935004997D7 /* icon_weibo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_weibo.png; sourceTree = "<group>"; };
+		62E344951EFB9935004997D7 /* loadingImg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loadingImg2.jpg; sourceTree = "<group>"; };
+		62E344961EFB9935004997D7 /* lunchpage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lunchpage.jpg; sourceTree = "<group>"; };
+		62E344971EFB9935004997D7 /* main_icon_gif009.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = main_icon_gif009.gif; sourceTree = "<group>"; };
+		62E344981EFB9935004997D7 /* main_icon_gif009@3x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "main_icon_gif009@3x.gif"; sourceTree = "<group>"; };
+		62E344991EFB9935004997D7 /* oobe_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oobe_bg.jpg; sourceTree = "<group>"; };
+		62E344C01EFB9D17004997D7 /* 侧边栏_底部商标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "侧边栏_底部商标.png"; sourceTree = "<group>"; };
+		62E344C11EFB9D17004997D7 /* 侧边栏_个人中心_未登录icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "侧边栏_个人中心_未登录icon.png"; sourceTree = "<group>"; };
+		62E344C21EFB9D17004997D7 /* 侧边栏_个人中心_游客头像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "侧边栏_个人中心_游客头像.png"; sourceTree = "<group>"; };
+		62E344C31EFB9D17004997D7 /* 侧边栏_栏目选中点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "侧边栏_栏目选中点.png"; sourceTree = "<group>"; };
+		62E344C41EFB9D17004997D7 /* 侧边栏_设置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "侧边栏_设置.png"; sourceTree = "<group>"; };
+		62E344C51EFB9D17004997D7 /* 美的你顶部栏_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美的你顶部栏_logo.png"; sourceTree = "<group>"; };
+		62E76CF81F0CEC5800756325 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62E110871EF92DEF00317F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E1109B1EF92DEF00317F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E110A61EF92DEF00317F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62A4546A1EFA683E001D2FB1 /* 3.1icon */ = {
+			isa = PBXGroup;
+			children = (
+				62A4546B1EFA683E001D2FB1 /* homecell_activity@2x.png */,
+				62A4546C1EFA683E001D2FB1 /* homecell_beauty@2x.png */,
+				62A4546D1EFA683E001D2FB1 /* homecell_brand@2x.png */,
+				62A4546E1EFA683E001D2FB1 /* homecell_top10@2x.png */,
+				62A4546F1EFA683E001D2FB1 /* homeList@2x.png */,
+				62A454701EFA683E001D2FB1 /* shanchu@2x.png */,
+				62A454711EFA683E001D2FB1 /* 加号.png */,
+				62A454721EFA683E001D2FB1 /* 加号1.png */,
+				62A454731EFA683E001D2FB1 /* 底色123.png */,
+				62A454741EFA683E001D2FB1 /* 我的1@2x.png */,
+				62A454751EFA683E001D2FB1 /* 我的@2x.png */,
+				62A454761EFA683E001D2FB1 /* 我的_msg@2x.png */,
+				62A454771EFA683E001D2FB1 /* 福利1@2x.png */,
+				62A454781EFA683E001D2FB1 /* 福利@2x.png */,
+				62A454791EFA683E001D2FB1 /* 美妆1@2x.png */,
+				62A4547A1EFA683E001D2FB1 /* 美妆@2x.png */,
+				62A4547B1EFA683E001D2FB1 /* 美的你.png */,
+				62A4547C1EFA683E001D2FB1 /* 试妆间@2x.png */,
+				62A4547D1EFA683E001D2FB1 /* 首页1@2x.png */,
+				62A4547E1EFA683E001D2FB1 /* 首页@2x.png */,
+			);
+			path = 3.1icon;
+			sourceTree = "<group>";
+		};
+		62A454931EFA687D001D2FB1 /* 4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				62E344C01EFB9D17004997D7 /* 侧边栏_底部商标.png */,
+				62E344C11EFB9D17004997D7 /* 侧边栏_个人中心_未登录icon.png */,
+				62E344C21EFB9D17004997D7 /* 侧边栏_个人中心_游客头像.png */,
+				62E344C31EFB9D17004997D7 /* 侧边栏_栏目选中点.png */,
+				62E344C41EFB9D17004997D7 /* 侧边栏_设置.png */,
+				62E344C51EFB9D17004997D7 /* 美的你顶部栏_logo.png */,
+				62E344741EFB9935004997D7 /* 试妆间_分享不勾选.png */,
+				62E344751EFB9935004997D7 /* 试妆间_分享勾选.png */,
+				62E344761EFB9935004997D7 /* 试妆间_进入时icon.png */,
+				62E344771EFB9935004997D7 /* 试妆间_镜头切换.png */,
+				62E344781EFB9935004997D7 /* 试妆间_录像.png */,
+				62E344791EFB9935004997D7 /* 试妆间_拍照.png */,
+				62E3447A1EFB9935004997D7 /* 试妆间_提示.png */,
+				62E3447B1EFB9935004997D7 /* 试妆间_线.png */,
+				62E3447C1EFB9935004997D7 /* 试妆间_妆容选中.png */,
+				62E3447D1EFB9935004997D7 /* 试妆间_rec.png */,
+				62E3447E1EFB9935004997D7 /* 首页_侧边栏icon_白.png */,
+				62E3447F1EFB9935004997D7 /* 首页_侧边栏icon_灰.png */,
+				62E344801EFB9935004997D7 /* 首页_视频播放icon.png */,
+				62E344811EFB9935004997D7 /* 首页提示_右.png */,
+				62E344821EFB9935004997D7 /* 首页提示_右箭头.png */,
+				62E344831EFB9935004997D7 /* 首页提示_左.png */,
+				62E344841EFB9935004997D7 /* 首页提示_左箭头.png */,
+				62E344851EFB9935004997D7 /* 通用_收藏与分享.png */,
+				62E344861EFB9935004997D7 /* 为你推荐_黑底.png */,
+				62E344871EFB9935004997D7 /* 月.png */,
+				62E344881EFB9935004997D7 /* 暂无试妆.png */,
+				62E344891EFB9935004997D7 /* 暂无收藏.png */,
+				62E3448A1EFB9935004997D7 /* 妆容_00.png */,
+				62E3448B1EFB9935004997D7 /* 妆容_选中.png */,
+				62E3448C1EFB9935004997D7 /* camera.png */,
+				62E3448D1EFB9935004997D7 /* costJifenImgCover.png */,
+				62E3448E1EFB9935004997D7 /* followUS.jpg */,
+				62E3448F1EFB9935004997D7 /* icon_美哒_分享用.png */,
+				62E344901EFB9935004997D7 /* icon_moment.png */,
+				62E344911EFB9935004997D7 /* icon_qq.png */,
+				62E344921EFB9935004997D7 /* icon_qqblog.png */,
+				62E344931EFB9935004997D7 /* icon_wechat.png */,
+				62E344941EFB9935004997D7 /* icon_weibo.png */,
+				62E344951EFB9935004997D7 /* loadingImg2.jpg */,
+				62E344961EFB9935004997D7 /* lunchpage.jpg */,
+				62E344971EFB9935004997D7 /* main_icon_gif009.gif */,
+				62E344981EFB9935004997D7 /* main_icon_gif009@3x.gif */,
+				62E344991EFB9935004997D7 /* oobe_bg.jpg */,
+				62A454941EFA687D001D2FB1 /* icon_show.png */,
+				62A454951EFA687D001D2FB1 /* icon_产品库.png */,
+				62A454961EFA687D001D2FB1 /* icon_福利.png */,
+				62A454971EFA687D001D2FB1 /* icon_试妆间.png */,
+				62A454981EFA687D001D2FB1 /* loadingImg.png */,
+				62A454991EFA687D001D2FB1 /* lunchpage.png */,
+				62A4549A1EFA687D001D2FB1 /* oobe_bg.png */,
+				62A4549B1EFA687D001D2FB1 /* 开机画面_logo.png */,
+				62A4549C1EFA687D001D2FB1 /* 美课美妆_logo.png */,
+				62A4549D1EFA687D001D2FB1 /* 间隔线_粉.png */,
+				62A4549E1EFA687D001D2FB1 /* 阅.png */,
+				62A4549F1EFA687D001D2FB1 /* 首页签到_今.png */,
+				62A454A01EFA687D001D2FB1 /* 首页签到_灰点.png */,
+				62A454A11EFA687D001D2FB1 /* 首页签到_签到_dow.png */,
+				62A454A21EFA687D001D2FB1 /* 首页签到_签到_nor.png */,
+				62A454A31EFA687D001D2FB1 /* 首页签到_红点.png */,
+				62A454A41EFA687D001D2FB1 /* 黑色头部渐变.png */,
+			);
+			path = 4.0;
+			sourceTree = "<group>";
+		};
+		62A454B61EFA6D04001D2FB1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				62E110BB1EF92E2200317F80 /* HomeViewController.swift */,
+				62A454B81EFA6D49001D2FB1 /* ProductViewController.swift */,
+				62A454BA1EFA7EC6001D2FB1 /* SingleWebCell.swift */,
+				62A454BB1EFA7EC6001D2FB1 /* SingleWebCell.xib */,
+				621132061F00ABD90076CCE3 /* InfoDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		62A454B71EFA6D22001D2FB1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				62A454931EFA687D001D2FB1 /* 4.0 */,
+				62A4546A1EFA683E001D2FB1 /* 3.1icon */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		62E110811EF92DEF00317F80 = {
+			isa = PBXGroup;
+			children = (
+				62E76CF81F0CEC5800756325 /* Alamofire.xcodeproj */,
+				62E1108C1EF92DEF00317F80 /* SwiftApp */,
+				62E110A11EF92DEF00317F80 /* SwiftAppTests */,
+				62E110AC1EF92DEF00317F80 /* SwiftAppUITests */,
+				62E1108B1EF92DEF00317F80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62E1108B1EF92DEF00317F80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62E1108A1EF92DEF00317F80 /* SwiftApp.app */,
+				62E1109E1EF92DEF00317F80 /* SwiftAppTests.xctest */,
+				62E110A91EF92DEF00317F80 /* SwiftAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62E1108C1EF92DEF00317F80 /* SwiftApp */ = {
+			isa = PBXGroup;
+			children = (
+				62EBEC531F02352D00D3827B /* Models */,
+				62A454B71EFA6D22001D2FB1 /* Resource */,
+				62A454B61EFA6D04001D2FB1 /* ViewController */,
+				62E1108D1EF92DEF00317F80 /* AppDelegate.swift */,
+				62E110911EF92DEF00317F80 /* Main.storyboard */,
+				62E110941EF92DEF00317F80 /* Assets.xcassets */,
+				62E110961EF92DEF00317F80 /* LaunchScreen.storyboard */,
+				62E110991EF92DEF00317F80 /* Info.plist */,
+			);
+			path = SwiftApp;
+			sourceTree = "<group>";
+		};
+		62E110A11EF92DEF00317F80 /* SwiftAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				62E110A21EF92DEF00317F80 /* SwiftAppTests.swift */,
+				62E110A41EF92DEF00317F80 /* Info.plist */,
+			);
+			path = SwiftAppTests;
+			sourceTree = "<group>";
+		};
+		62E110AC1EF92DEF00317F80 /* SwiftAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62E110AD1EF92DEF00317F80 /* SwiftAppUITests.swift */,
+				62E110AF1EF92DEF00317F80 /* Info.plist */,
+			);
+			path = SwiftAppUITests;
+			sourceTree = "<group>";
+		};
+		62E76CF91F0CEC5800756325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62E76D041F0CEC5800756325 /* Alamofire.framework */,
+				62E76D061F0CEC5800756325 /* Alamofire iOS Tests.xctest */,
+				62E76D081F0CEC5800756325 /* Alamofire.framework */,
+				62E76D0A1F0CEC5800756325 /* Alamofire macOS Tests.xctest */,
+				62E76D0C1F0CEC5800756325 /* Alamofire.framework */,
+				62E76D0E1F0CEC5800756325 /* Alamofire tvOS Tests.xctest */,
+				62E76D101F0CEC5800756325 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62EBEC531F02352D00D3827B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62E110891EF92DEF00317F80 /* SwiftApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62E110B21EF92DEF00317F80 /* Build configuration list for PBXNativeTarget "SwiftApp" */;
+			buildPhases = (
+				62E110861EF92DEF00317F80 /* Sources */,
+				62E110871EF92DEF00317F80 /* Frameworks */,
+				62E110881EF92DEF00317F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftApp;
+			productName = SwiftApp;
+			productReference = 62E1108A1EF92DEF00317F80 /* SwiftApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62E1109D1EF92DEF00317F80 /* SwiftAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62E110B51EF92DEF00317F80 /* Build configuration list for PBXNativeTarget "SwiftAppTests" */;
+			buildPhases = (
+				62E1109A1EF92DEF00317F80 /* Sources */,
+				62E1109B1EF92DEF00317F80 /* Frameworks */,
+				62E1109C1EF92DEF00317F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62E110A01EF92DEF00317F80 /* PBXTargetDependency */,
+			);
+			name = SwiftAppTests;
+			productName = SwiftAppTests;
+			productReference = 62E1109E1EF92DEF00317F80 /* SwiftAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62E110A81EF92DEF00317F80 /* SwiftAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62E110B81EF92DEF00317F80 /* Build configuration list for PBXNativeTarget "SwiftAppUITests" */;
+			buildPhases = (
+				62E110A51EF92DEF00317F80 /* Sources */,
+				62E110A61EF92DEF00317F80 /* Frameworks */,
+				62E110A71EF92DEF00317F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62E110AB1EF92DEF00317F80 /* PBXTargetDependency */,
+			);
+			name = SwiftAppUITests;
+			productName = SwiftAppUITests;
+			productReference = 62E110A91EF92DEF00317F80 /* SwiftAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62E110821EF92DEF00317F80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Zheng FengJuan";
+				TargetAttributes = {
+					62E110891EF92DEF00317F80 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2K55XLNBR2;
+						ProvisioningStyle = Automatic;
+					};
+					62E1109D1EF92DEF00317F80 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 62E110891EF92DEF00317F80;
+					};
+					62E110A81EF92DEF00317F80 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 62E110891EF92DEF00317F80;
+					};
+				};
+			};
+			buildConfigurationList = 62E110851EF92DEF00317F80 /* Build configuration list for PBXProject "SwiftApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62E110811EF92DEF00317F80;
+			productRefGroup = 62E1108B1EF92DEF00317F80 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 62E76CF91F0CEC5800756325 /* Products */;
+					ProjectRef = 62E76CF81F0CEC5800756325 /* Alamofire.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				62E110891EF92DEF00317F80 /* SwiftApp */,
+				62E1109D1EF92DEF00317F80 /* SwiftAppTests */,
+				62E110A81EF92DEF00317F80 /* SwiftAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		62E76D041F0CEC5800756325 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 62E76D031F0CEC5800756325 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		62E76D061F0CEC5800756325 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 62E76D051F0CEC5800756325 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		62E76D081F0CEC5800756325 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 62E76D071F0CEC5800756325 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		62E76D0A1F0CEC5800756325 /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = 62E76D091F0CEC5800756325 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		62E76D0C1F0CEC5800756325 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 62E76D0B1F0CEC5800756325 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		62E76D0E1F0CEC5800756325 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 62E76D0D1F0CEC5800756325 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		62E76D101F0CEC5800756325 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 62E76D0F1F0CEC5800756325 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62E110881EF92DEF00317F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E344BF1EFB9935004997D7 /* oobe_bg.jpg in Resources */,
+				62A4548B1EFA683E001D2FB1 /* 福利1@2x.png in Resources */,
+				62E344BD1EFB9935004997D7 /* main_icon_gif009.gif in Resources */,
+				62E344CA1EFB9D17004997D7 /* 侧边栏_设置.png in Resources */,
+				62A454AF1EFA687D001D2FB1 /* 阅.png in Resources */,
+				62A454B31EFA687D001D2FB1 /* 首页签到_签到_nor.png in Resources */,
+				62E3449B1EFB9935004997D7 /* 试妆间_分享勾选.png in Resources */,
+				62A454851EFA683E001D2FB1 /* 加号.png in Resources */,
+				62E344C61EFB9D17004997D7 /* 侧边栏_底部商标.png in Resources */,
+				62A454B51EFA687D001D2FB1 /* 黑色头部渐变.png in Resources */,
+				62A454AA1EFA687D001D2FB1 /* lunchpage.png in Resources */,
+				62A454891EFA683E001D2FB1 /* 我的@2x.png in Resources */,
+				62A454861EFA683E001D2FB1 /* 加号1.png in Resources */,
+				62A4548A1EFA683E001D2FB1 /* 我的_msg@2x.png in Resources */,
+				62E344AD1EFB9935004997D7 /* 月.png in Resources */,
+				62E344A21EFB9935004997D7 /* 试妆间_妆容选中.png in Resources */,
+				62E344A51EFB9935004997D7 /* 首页_侧边栏icon_灰.png in Resources */,
+				62E344AA1EFB9935004997D7 /* 首页提示_左箭头.png in Resources */,
+				62E110981EF92DEF00317F80 /* LaunchScreen.storyboard in Resources */,
+				62A454831EFA683E001D2FB1 /* homeList@2x.png in Resources */,
+				62E3449A1EFB9935004997D7 /* 试妆间_分享不勾选.png in Resources */,
+				62E344AF1EFB9935004997D7 /* 暂无收藏.png in Resources */,
+				62A454921EFA683E001D2FB1 /* 首页@2x.png in Resources */,
+				62E344AB1EFB9935004997D7 /* 通用_收藏与分享.png in Resources */,
+				62A454801EFA683E001D2FB1 /* homecell_beauty@2x.png in Resources */,
+				62E344B91EFB9935004997D7 /* icon_wechat.png in Resources */,
+				62E344B31EFB9935004997D7 /* costJifenImgCover.png in Resources */,
+				62E344B41EFB9935004997D7 /* followUS.jpg in Resources */,
+				62E344B11EFB9935004997D7 /* 妆容_选中.png in Resources */,
+				62E344B81EFB9935004997D7 /* icon_qqblog.png in Resources */,
+				62E344B21EFB9935004997D7 /* camera.png in Resources */,
+				62A454A51EFA687D001D2FB1 /* icon_show.png in Resources */,
+				62A454901EFA683E001D2FB1 /* 试妆间@2x.png in Resources */,
+				62E344BA1EFB9935004997D7 /* icon_weibo.png in Resources */,
+				62A454A61EFA687D001D2FB1 /* icon_产品库.png in Resources */,
+				62E344BC1EFB9935004997D7 /* lunchpage.jpg in Resources */,
+				62E110951EF92DEF00317F80 /* Assets.xcassets in Resources */,
+				62A454821EFA683E001D2FB1 /* homecell_top10@2x.png in Resources */,
+				62E344A41EFB9935004997D7 /* 首页_侧边栏icon_白.png in Resources */,
+				62E344AE1EFB9935004997D7 /* 暂无试妆.png in Resources */,
+				62E344AC1EFB9935004997D7 /* 为你推荐_黑底.png in Resources */,
+				62A4548D1EFA683E001D2FB1 /* 美妆1@2x.png in Resources */,
+				62E344A01EFB9935004997D7 /* 试妆间_提示.png in Resources */,
+				62A454AD1EFA687D001D2FB1 /* 美课美妆_logo.png in Resources */,
+				62A454841EFA683E001D2FB1 /* shanchu@2x.png in Resources */,
+				62E344A71EFB9935004997D7 /* 首页提示_右.png in Resources */,
+				62E344A61EFB9935004997D7 /* 首页_视频播放icon.png in Resources */,
+				62A454A71EFA687D001D2FB1 /* icon_福利.png in Resources */,
+				62E344BB1EFB9935004997D7 /* loadingImg2.jpg in Resources */,
+				62A4548F1EFA683E001D2FB1 /* 美的你.png in Resources */,
+				62E3449D1EFB9935004997D7 /* 试妆间_镜头切换.png in Resources */,
+				62A4547F1EFA683E001D2FB1 /* homecell_activity@2x.png in Resources */,
+				62A4548C1EFA683E001D2FB1 /* 福利@2x.png in Resources */,
+				62E344A91EFB9935004997D7 /* 首页提示_左.png in Resources */,
+				62A454881EFA683E001D2FB1 /* 我的1@2x.png in Resources */,
+				62A4548E1EFA683E001D2FB1 /* 美妆@2x.png in Resources */,
+				62A454AC1EFA687D001D2FB1 /* 开机画面_logo.png in Resources */,
+				62A454B41EFA687D001D2FB1 /* 首页签到_红点.png in Resources */,
+				62A454871EFA683E001D2FB1 /* 底色123.png in Resources */,
+				62A454B11EFA687D001D2FB1 /* 首页签到_灰点.png in Resources */,
+				62E344C91EFB9D17004997D7 /* 侧边栏_栏目选中点.png in Resources */,
+				62A454BD1EFA7EC6001D2FB1 /* SingleWebCell.xib in Resources */,
+				62E344B61EFB9935004997D7 /* icon_moment.png in Resources */,
+				62E110931EF92DEF00317F80 /* Main.storyboard in Resources */,
+				62A454B21EFA687D001D2FB1 /* 首页签到_签到_dow.png in Resources */,
+				62E344BE1EFB9935004997D7 /* main_icon_gif009@3x.gif in Resources */,
+				62A454A91EFA687D001D2FB1 /* loadingImg.png in Resources */,
+				62A454B01EFA687D001D2FB1 /* 首页签到_今.png in Resources */,
+				62E344A31EFB9935004997D7 /* 试妆间_rec.png in Resources */,
+				62E344A11EFB9935004997D7 /* 试妆间_线.png in Resources */,
+				62E344C81EFB9D17004997D7 /* 侧边栏_个人中心_游客头像.png in Resources */,
+				62E344B51EFB9935004997D7 /* icon_美哒_分享用.png in Resources */,
+				62A454AE1EFA687D001D2FB1 /* 间隔线_粉.png in Resources */,
+				62E3449C1EFB9935004997D7 /* 试妆间_进入时icon.png in Resources */,
+				62E3449F1EFB9935004997D7 /* 试妆间_拍照.png in Resources */,
+				62A454811EFA683E001D2FB1 /* homecell_brand@2x.png in Resources */,
+				62E344B01EFB9935004997D7 /* 妆容_00.png in Resources */,
+				62A454911EFA683E001D2FB1 /* 首页1@2x.png in Resources */,
+				62E344C71EFB9D17004997D7 /* 侧边栏_个人中心_未登录icon.png in Resources */,
+				62E344B71EFB9935004997D7 /* icon_qq.png in Resources */,
+				62A454A81EFA687D001D2FB1 /* icon_试妆间.png in Resources */,
+				62A454AB1EFA687D001D2FB1 /* oobe_bg.png in Resources */,
+				62E344CB1EFB9D17004997D7 /* 美的你顶部栏_logo.png in Resources */,
+				62E3449E1EFB9935004997D7 /* 试妆间_录像.png in Resources */,
+				62E344A81EFB9935004997D7 /* 首页提示_右箭头.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E1109C1EF92DEF00317F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E110A71EF92DEF00317F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62E110861EF92DEF00317F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A454BC1EFA7EC6001D2FB1 /* SingleWebCell.swift in Sources */,
+				62E1108E1EF92DEF00317F80 /* AppDelegate.swift in Sources */,
+				621132071F00ABD90076CCE3 /* InfoDetailViewController.swift in Sources */,
+				62A454B91EFA6D49001D2FB1 /* ProductViewController.swift in Sources */,
+				62E110BC1EF92E2200317F80 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E1109A1EF92DEF00317F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E110A31EF92DEF00317F80 /* SwiftAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E110A51EF92DEF00317F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E110AE1EF92DEF00317F80 /* SwiftAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62E110A01EF92DEF00317F80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62E110891EF92DEF00317F80 /* SwiftApp */;
+			targetProxy = 62E1109F1EF92DEF00317F80 /* PBXContainerItemProxy */;
+		};
+		62E110AB1EF92DEF00317F80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62E110891EF92DEF00317F80 /* SwiftApp */;
+			targetProxy = 62E110AA1EF92DEF00317F80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62E110911EF92DEF00317F80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62E110921EF92DEF00317F80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62E110961EF92DEF00317F80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62E110971EF92DEF00317F80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62E110B01EF92DEF00317F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62E110B11EF92DEF00317F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62E110B31EF92DEF00317F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2K55XLNBR2;
+				INFOPLIST_FILE = SwiftApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.SwiftApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		62E110B41EF92DEF00317F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2K55XLNBR2;
+				INFOPLIST_FILE = SwiftApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.SwiftApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		62E110B61EF92DEF00317F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.SwiftAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftApp.app/SwiftApp";
+			};
+			name = Debug;
+		};
+		62E110B71EF92DEF00317F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.SwiftAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftApp.app/SwiftApp";
+			};
+			name = Release;
+		};
+		62E110B91EF92DEF00317F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SwiftAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.SwiftAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftApp;
+			};
+			name = Debug;
+		};
+		62E110BA1EF92DEF00317F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SwiftAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.SwiftAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62E110851EF92DEF00317F80 /* Build configuration list for PBXProject "SwiftApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E110B01EF92DEF00317F80 /* Debug */,
+				62E110B11EF92DEF00317F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62E110B21EF92DEF00317F80 /* Build configuration list for PBXNativeTarget "SwiftApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E110B31EF92DEF00317F80 /* Debug */,
+				62E110B41EF92DEF00317F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62E110B51EF92DEF00317F80 /* Build configuration list for PBXNativeTarget "SwiftAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E110B61EF92DEF00317F80 /* Debug */,
+				62E110B71EF92DEF00317F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62E110B81EF92DEF00317F80 /* Build configuration list for PBXNativeTarget "SwiftAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E110B91EF92DEF00317F80 /* Debug */,
+				62E110BA1EF92DEF00317F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62E110821EF92DEF00317F80 /* Project object */;
+}
